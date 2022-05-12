@@ -1,17 +1,32 @@
-body {
-    text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,400,700");
+
+:root {
+  --bg-color: #f2f3f7;
+  --fg-color: #7b7e8c;
+  --red: #E43030;
+  --green: #19A187;
+  --blue: #367bf0;
+  --dark-blue: #265AB1;
+  --maroon: #B8174C;
+  --purple: #8C42AB; 
 }
 
-.square {
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.quadrado {
     text-align: center;
-    width: 180px;
+    width: 50px;
     background: #eee;
     display: inline-block;
     padding: 40px;
     font-size: 60px;
     margin: 5px;
     cursor: pointer;
-    border-radius: 10px;
+    color: #eee;
 }
 
 .jogador, .vencedor {
@@ -20,8 +35,9 @@ body {
 }
 
 button {
-    
     margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: #eee;
     cursor: pointer;
-    
 }
