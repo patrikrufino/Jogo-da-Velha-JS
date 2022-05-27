@@ -42,6 +42,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-top: calc(1.4rem + var(--navbar-height));
     width: min(50rem, 100%);
     margin-inline: auto;
@@ -75,7 +76,7 @@ nav {
  */
 section .wrapper .jogador {
     display: flex;
-    width: 100%;
+    width: 34rem;
     height: 100%;
     background-color: var(--bg-color);
 
