@@ -79,6 +79,7 @@ nav a:hover {
     /** Aumenta brilho do botão */
     filter: brightness(1.2);
 }
+
 /** SESSÃO DO JOGO */
 
 /**
@@ -161,6 +162,7 @@ section .wrapper .quadrado:hover {
     padding: 3rem;
     justify-content: space-between;
 }
+
 /**
  * Reiniciar o jogo
  */
@@ -190,4 +192,34 @@ button:hover {
 
 button.button {
     background: var(--button-color);
+}
+
+/* REPOSIVIDADE */
+
+@media (min-width:1024px) {
+    .wrapper {
+        width: 45rem;
+    }
+
+    section .wrapper .jogador {
+        display: flex;
+        width: 45rem;
+    }
+
+    /**
+ * Tabuleiro
+ */
+    section .wrapper .tabuleiro {
+        height: 45rem;
+        width: 45rem;
+    }
+
+    section .wrapper .quadrado {
+        width: 13.23rem;
+        height: 13.23rem;
+    }
+
+    .telaPlacar {
+        width: 45rem;
+    }
 }
