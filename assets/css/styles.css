@@ -125,7 +125,9 @@ section .wrapper .quadrado {
 
 section .wrapper .quadrado:hover {
     background-color: white;
+    color: white;
     cursor: pointer;
+    box-shadow: 0px 8px 8px 0px #00000040;
 }
 
 .placar {
